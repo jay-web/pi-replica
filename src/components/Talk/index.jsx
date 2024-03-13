@@ -12,7 +12,7 @@ const Talk = ({ placeholder, children }) => {
         onChange={(e) => setInput(e.target.value)}
       />
      
-        <NavigateButton backgroundColor={input && "#038247"} to={"/conversation"}>
+        <NavigateButton to={"/conversation"}>
      
           {children}
          

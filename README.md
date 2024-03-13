@@ -1,8 +1,8 @@
-# React + Vite
+# Pi-Replica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Check live by scanning from your mobile :
 
-Currently, two official plugins are available:
+ ![image](https://github.com/jay-web/pi-replica/assets/20477411/5e7969b3-e321-409a-a107-4c1e44d02f86)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+

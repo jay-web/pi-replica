@@ -1,0 +1,32 @@
+{
+    "chat": [
+        {
+            "user": "Hello",
+            "ai": ["Hey there ! How it's going? 😊"]
+        },
+        {
+            "user": "I want to know about AI ?",
+            "ai": ["Awesome! AI, or Artificial Intelligence, is a fascinating subject. At its core, AI is about creating machines or computer programs that can perform tasks that would normally require human intelligence, such as learning, reasoning, problem-solving, and decision-making. There are different types of AI, like machine learning, deep learning, and natural language processing. Is there a particular aspect of AI you're interested in?"]
+        },
+        {
+            "user": "Tell me more about it?",
+            "ai": ["Sure, here's some more information about AI:"]
+        },
+        {
+            "user": "",
+            "ai": [
+                {
+                    "Machine Learning": "This is a type of AI that involves teaching a computer program to learn from data and make predictions or decisions without being explicitly programmed.",
+               
+                    "Deep Learning": "A subset of machine learning, deep learning uses artificial neural networks, which are inspired by the structure and function of the human brain, to process large amounts of complex data.",
+             
+                    "Natural Language Processing": "This is the ability of a computer program to understand and generate human language, allowing for tasks such as speech recognition, language translation, and text analysis.",
+               
+                    "Computer Vision": "This involves enabling computers to interpret and understand visual data from the world around them, such as recognizing objects, people, and scenes in images and videos.",
+               
+                    "Robotics": "AI can be applied to robotics, allowing robots to navigate, manipulate objects, and interact with their environment in a more intelligent and autonomous way."
+                }
+            ]
+        }
+    ]
+}

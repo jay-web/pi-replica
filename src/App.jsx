@@ -1,8 +1,12 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Home from "./pages/home";
-import Details from "./pages/details";
-import Conversation from "./pages/conversation";
+
 import { AnimatePresence } from "framer-motion";
+import { Suspense, lazy } from "react";
+import Spinner from "./ui/spinner";
+
+const Home = lazy(() => import("./pages/home"));
+const Details = lazy(() => import("./pages/details"));
+const Conversation = lazy(() => import("./pages/conversation"));
 
 const router = createBrowserRouter([
   {
@@ -21,8 +25,10 @@ const router = createBrowserRouter([
 
 function App() {
   return <AnimatePresence>
-<RouterProvider router={router}></RouterProvider>
-  </AnimatePresence> 
+          <Suspense fallback={<Spinner />}>
+            <RouterProvider router={router}></RouterProvider>
+          </Suspense>
+           </AnimatePresence> 
   
 }
 

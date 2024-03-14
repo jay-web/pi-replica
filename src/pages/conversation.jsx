@@ -16,7 +16,7 @@ const Conversation = () => {
         <div className="p-3 h-dvh">
           <ul>{data.chat.map((chat, index) => {
             return <li className={`m-2 flex flex-col items-start`} key={index}>
-                    <div className={`p-2 ${chat.user !== "" && 'my-2'} rounded-xl inline bg-[#F5EADC] self-end`}>{chat.user}</div>
+                    <div className={`p-2 ${chat.user !== "" && 'my-2'} rounded-xl inline bg-[#f5eadc] self-end`}>{chat.user}</div>
                     <div className="p-1">
                         {chat.ai.map((aiResponse, index) => {
                            return Points(aiResponse, index)

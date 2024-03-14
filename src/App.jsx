@@ -9,6 +9,7 @@ const Details = lazy(() => import("./pages/details"));
 const Conversation = lazy(() => import("./pages/conversation"));
 
 const router = createBrowserRouter([
+  
   {
     path: "/",
     element: <Home />,

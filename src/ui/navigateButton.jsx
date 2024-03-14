@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ScaleIn from "./scaleIn";
 
 const NavigateButton = ({ onClick, to, children }) => {
   return (
@@ -7,7 +8,7 @@ const NavigateButton = ({ onClick, to, children }) => {
       className={`bg-[#ede1d1] rounded-full text-center p-1.5`}
       onClick={onClick}
     >
-      {children}
+      <ScaleIn>{children}</ScaleIn> 
     </Link>
   );
 };
